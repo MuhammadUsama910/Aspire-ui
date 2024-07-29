@@ -18,7 +18,7 @@ const FrequentlyAsked = () => {
         <ul className="pt-8 lg:pt-14 px-12 lg:px-28 grid grid-cols-1 md:grid-cols-2 gap-x-4 justify-items-center gap-y-4">
         {
           frequentlyAskedArr?.map((item, index) => (
-              <li key={index} className="w-full flex items-center justify-between max-md:text-xxs md:text-xs xl:text-sm bg-white text-headingColor p-1 md:p-2 lg:p-4">
+              <li key={index} className="w-full flex items-center justify-between max-md:text-xs xl:text-sm bg-white text-headingColor p-1 md:p-2 lg:p-4">
               <p> {item.text} </p>
               <MdKeyboardArrowDown/>
               </li>
