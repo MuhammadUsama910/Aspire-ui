@@ -1,4 +1,5 @@
 import { FaArrowRightLong } from "react-icons/fa6";
+import { About } from "../assets";
 
 const AboutUs = () => {
   return (
@@ -38,14 +39,12 @@ const AboutUs = () => {
 
         <img
           className="px-4 sm:px-6 md:px-24 lg:px-36 xl:px-40 mt-8 md:mt-16 lg:mt-20 mb-8"
-          src="/src/assets/About.png"
+          src={About}
           alt="about"
         />
 
       </div>
     </section>
-    
-    
     </>
   )
 }

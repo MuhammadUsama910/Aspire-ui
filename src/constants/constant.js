@@ -1,4 +1,5 @@
-import { fiftyM, hundredM, thirtyPercent, sixtyPlus } from '../assets'
+import { fiftyM, hundredM, thirtyPercent, sixtyPlus, Image_2, Image_3, Image_4, Image_5, Image_6,
+  Image_7, Image_8, Image_9 } from '../assets'
 
 export const navLinks = ["Product", "Pricing", "Company", "Resources", "Contact"];
 
@@ -27,42 +28,42 @@ export const cardArr = [
 
 export const dreamTeam = [
   {
-    image: "/src/assets/Image 2.png",
+    image: Image_2,
     name: "Kristopher A. Davis",
     designation: "Designation Goes here"
   },
   {
-    image: "/src/assets/Image 3.png",
+    image: Image_3,
     name: "Maggie W. Roth",
     designation: "Designation Goes here"
   },
   {
-    image: "/src/assets/Image 4.png",
+    image: Image_4,
     name: "Anthony N",
     designation: "Designation Goes here"
   },
   {
-    image: "/src/assets/Image 5.png",
+    image: Image_5,
     name: "Tony J. Wilcoxen",
     designation: "Designation Goes here"
   },
   {
-    image: "/src/assets/Image 6.png",
+    image: Image_6,
     name: "Kristopher A. Davis",
     designation: "Designation Goes here"
   },
   {
-    image: "/src/assets/Image 8.png",
+    image: Image_8,
     name: "Maggie W. Roth",
     designation: "Designation Goes here"
   },
   {
-    image: "/src/assets/Image 7.png",
+    image: Image_7,
     name: "Anthony N",
     designation: "Designation Goes here"
   },
   {
-    image: "/src/assets/Image 9.png",
+    image: Image_9,
     name: "Tony J. Wilcoxen",
     designation: "Designation Goes here"
   },
